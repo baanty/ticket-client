@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TicketApplication {
+public class TicketApplicationClient {
 
 	public static void main(String[] arguments) {
-		SpringApplication.run(TicketApplication.class, arguments);
+		SpringApplication.run(TicketApplicationClient.class, arguments);
 	}
 }
